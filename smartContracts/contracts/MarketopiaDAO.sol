@@ -1,3 +1,4 @@
+pragma solidity >=0.4.21 <0.6.0;
 
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
@@ -7,9 +8,9 @@ import "./extensions/CompoundExtension.sol";
 import "./extensions/KyberExtension.sol";
 
 
-contract CompoundExtension is CompoundExtension, KyberExtension, Ownable {
+contract MarketopiaDAO is CompoundExtension, KyberExtension, Ownable {
     
-    function constructor() public CompoundExtension() KyberExtension() Owned() 
+    constructor() public CompoundExtension() KyberExtension() Ownable() 
     {}
 
       
@@ -30,35 +31,23 @@ contract CompoundExtension is CompoundExtension, KyberExtension, Ownable {
     }
 
     function redeemDAI(uint256 amount) public onlyOwner returns (bool) {
-        return CompoundExtension._redeemDAI(amount,owner);
+        return CompoundExtension._redeemDAI(amount,owner());
     }
 
     function redeemUSDC(uint256 amount) public onlyOwner returns (bool) {
-        return CompoundExtension._redeemUSDC(amount, owner);
+        return CompoundExtension._redeemUSDC(amount, owner());
     }
-
-    function accruedInterestCurrent() public returns (uint256) {
-        return CompoundExtension._accruedInterestCurrent();
-    }
-
-    function accruedInterestStored() public view returns (uint256) {
-        return CompoundExtension._accruedInterestStored();
-    }
-
-    function withdrawInterestInDAI(address beneficiary) public onlyOwner returns (bool) {
-        return CompoundExtension._withdrawInterestInDAI(beneficiary);
-    }
-
-    function withdrawInterestInCDAI(address beneficiary) public onlyOwner returns (bool) {
-        return CompoundExtension._withdrawInterestInCDAI(beneficiary);
-    } 
 
     function tradeDaiforUsdc(uint256 srcAmount) public onlyOwner returns ( uint256 _actualDestAmount, uint256 _actualSrcAmount){
-          return _kyberTrade(DAI_ADDRESS, srcAmount, USDC_ADDRESS);
+        ERC20 dai = ERC20(DAI_ADDRESS);
+        ERC20 usdc = ERC20(USDC_ADDRESS);
+        return _kyberTrade(dai, srcAmount, usdc);
     }
 
     function tradeUsdcforDai(uint256 srcAmount) public onlyOwner returns ( uint256 _actualDestAmount, uint256 _actualSrcAmount){
-          return _kyberTrade(USDC_ADDRESS, srcAmount, DAI_ADDRESS);
+        ERC20 usdc = ERC20(USDC_ADDRESS);
+        ERC20 dai = ERC20(DAI_ADDRESS);
+        return _kyberTrade(usdc, srcAmount, dai);
     }
 
 

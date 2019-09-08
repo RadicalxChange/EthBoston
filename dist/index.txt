@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html>
+        <head>
+                <title>RadicalxChange</title>
+            </head>
+            
+            <body>
+                <noscript>You need to enable JavaScript to run this app.</noscript>
+                <div id="root">
+                    <div class="sc-bdVaJa gLzOLo">
+                        <div class="sc-bdVaJa gLzOLo">
+                            <div style="opacity: 1;">
+                                <div display="flex" width="1" class="sc-bwzfXH eZfBCQ"><img id="img" alt="RadicalxChange" src="https://media.giphy.com/media/JpkZRxc9iyKHP8euTX/giphy.gif" style="
+                width: 81px;
+            ">
+                                    <span style="opacity: 1; transform: none;"></span>
+                                    <div display="flex" class="sc-bwzfXH fPuwKt">
+                                        <span style="opacity: 1; transform: none;">
+                                            <a color="white" font-size="14" font-weight="500" opacity="0.8" display="inline-block" cursor="pointer" class="sc-VigVT cQUFux">FAQs</a></span><span style="opacity: 1; transform: none;"><button kind="ghostReversed" font-size="14" height="40" color="white" font-family="3" display="inline-block" font-weight="500" class="sc-cSHVUG bVYfhV"><a href='https://commerce.coinbase.com/checkout/e2d5e51e-ca95-49cb-956e-15a17b5ff1cc'>Donate</a></button></span></div>
+                                </div>
+                                <div width="1" class="sc-bwzfXH hBQPKB">
+                                    <div display="flex" class="sc-bwzfXH bptSDP">
+                                        <span style="opacity: 1; transform: none;">
+                                                <img src="https://media.giphy.com/media/cM34ziKkMpsI6EuYe3/giphy.gif" alt="rev-v1-01-2" data-load="full" style="
+                width: 782px;
+            ">
+                                            
+                                        </span>
+                                    </div>
+                                    <div transform="translate(-50%, -50%)" width="1" class="sc-bwzfXH jNVVQh">
+                                        <div display="flex" width="1" class="sc-bwzfXH kYUWxF">
+                                            <span style="opacity: 1; transform: none;">
+                                                <p color="white" font-size="52,146" font-weight="600" letter-spacing="-1.4,-4" class="sc-cmTdod eVWmHO"><a href='https://commerce.coinbase.com/checkout/e2d5e51e-ca95-49cb-956e-15a17b5ff1cc'>Donate</a> your interest</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+</html>
+
+<style>
+.fPuwKt {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.cQUFux {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-right: 32px;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+    text-decoration: none;
+}
+
+.bVYfhV {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 1;
+    padding-left: 32px;
+    padding-right: 32px;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline-style: none;
+    text-align: center;
+    transition-duration: 200ms;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    text-decoration: none;
+}
+.hBQPKB {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+.bptSDP {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.hREiqY {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 226px;
+    font-weight: 700;
+    letter-spacing: -4.4px;
+    line-height: 0.8;
+    padding-top: 14px;
+    text-align: center;
+    white-space: pre-wrap;
+    transition: all 300ms ease-in-out 0s;
+}
+.jNVVQh {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+.kYUWxF {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 40em){
+  .eVWmHO {
+    letter-spacing: -4px;
+}
+}
+
+@media screen and (min-width: 40em){
+  .eVWmHO {
+    font-size: 146px;
+}
+}
+
+
+.eVWmHO {
+    color: rgb(255, 255, 255);
+    font-size: 146px;
+    font-weight: 600;
+    letter-spacing: -1.4px;
+    line-height: 1;
+    max-width: 960px;
+    text-align: center;
+    white-space: pre-wrap;
+    transition: all 300ms ease-in-out 0s;
+}
+
+@media screen and (min-width: 40em){
+  .hREiqY {
+    padding-top: 40px;
+}
+}
+
+@media screen and (min-width: 40em){
+  .hREiqY {
+    letter-spacing: -5px;
+}
+}
+
+@media screen and (min-width: 40em){
+  .hREiqY {
+    font-size: 636px;
+}
+}
+
+.hREiqY {
+    font-size: 636px;
+}
+@media screen and (min-width: 64em){
+  .eZfBCQ {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+}
+
+
+@media screen and (min-width: 52em){
+  .eZfBCQ {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+}
+
+
+@media screen and (min-width: 40em){
+  .eZfBCQ {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+}
+
+
+
+.eZfBCQ {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fPuwKt {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+.hBQPKB {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+body, button, input {
+    background-color: rgb(0, 1, 7);
+    color: rgb(110, 120, 152);
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.gLzOLo {
+    box-sizing: border-box;
+}
+.EWDhS {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 80vh;
+    position: relative;
+    padding-bottom: 32px;
+    padding-top: 24px;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 64em){
+   .eZfBCQ {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+}
+.eZfBCQ {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 40em){
+  .eZfBCQ {
+      padding-left: 32px;
+      padding-right: 32px;
+  }  
+}
+
+eZqOZe {
+    color: rgb(255, 255, 255);
+    fill: currentcolor;
+}
+
+
+
+
+</style>
+
+</html>
